@@ -1,0 +1,17 @@
+[package]
+name = "extest"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nero"]
+license-file = "LICENSE"
+description = "Extra utilities for your tests"
+repository = "https://github.com/nerodono/extest"
+
+[features]
+default = ["group"]
+group = []
+
+[lib]
+proc-macro = true
+
+[dependencies]
